@@ -9,10 +9,14 @@
 
   <ItemGroup>
     <None Remove="1\input.txt" />
+    <None Remove="2\input.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="1\input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="2\input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
